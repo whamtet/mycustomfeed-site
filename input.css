@@ -1,3 +1,68 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.l1 {
+    font-size: 20px;
+}
+
+.l2 {
+    font-size: 66px;
+    line-height: 120%;
+}
+
+.l3 {
+    font-size: 20px;
+}
+
+.b1 {
+    font-size: 18px;
+}
+
+.th {
+    @apply py-4 bg-th-gray
+    border-l border-l-td-border-gray
+    border-y border-y-dark;
+}
+
+.td-bad {
+    @apply py-2 px-2 bg-light-red
+    border-y border-y-dark
+    text-center;
+    font-size: 23px;
+}
+
+.td-good {
+    @apply py-2 px-2 bg-light-blue
+    border-y border-y-dark
+    text-center;
+    font-size: 23px;
+}
+
+.td {
+    @apply py-4 px-4 bg-td-gray
+    border-l border-l-td-border-gray
+    border-y border-y-dark;
+}
+
+.l4 {
+    font-size: 50px;
+}
+
+.l5 {
+    font-size: 36px;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.inter-bold {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+}
